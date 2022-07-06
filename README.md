@@ -1,6 +1,12 @@
 # Todolist
 
-This template should help get you started developing with Vue 3 in Vite.
+This text file should help get you started developing with Vue 3 in Vite.
+
+This project is builded with Vue3 in Vite and with Tauri.
+
+[Vue3](https://vuejs.org/) is responsible for rendering the frontend and basic logic processing.
+
+[Tauri](https://tauri.app/) is used to package the project into an application and provide APIs.
 
 ## Recommended IDE Setup
 
@@ -30,11 +36,11 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+cargo tauri dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+cargo tauri build
 ```
